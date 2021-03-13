@@ -50,7 +50,7 @@ public class Latihan3{
                                         System.out.println("Pembelian tidak diketahui :(");
                                         break;
                         }
-                        System.out.print("Kamu mau beli lagi ? (y/n) ");
+                        System.out.print("Kamu mau Beli lagi ? (y/n) ");
                         loop = simpan.next();
                 } while (loop.equals("y") || loop.equals("Y"));
 
