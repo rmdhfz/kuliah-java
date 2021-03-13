@@ -18,6 +18,7 @@ public class Latihan3{
                 int hargaPensil = 2000, hargaBuku   = 3000, hargaPenghapus = 1000, jumlahBarangYangDiBeli;
         	int total = 0, satuan = 0, pilihMenu = 0, uangBayar = 0, uangKurang = 0, sisaKembalian = 0;
         	String loop, barangYangDibeli;
+                
                 do {
                         System.out.println("=================");
                         System.out.println("::- Lapaku -::");
@@ -46,7 +47,7 @@ public class Latihan3{
                                         System.out.println("Pembelian kamu tidak diketahui :(");
                                         break;
                         }
-                        System.out.print("Kamu mau beli lagi (y/n) ? ");
+                        System.out.print("Kamu mau beli lagi ? (y/n) ");
                         loop = simpan.next();
                 } while (loop.equals("y") || loop.equals("Y"));
 
