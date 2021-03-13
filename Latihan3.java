@@ -5,7 +5,7 @@ public class Latihan3{
 		int hargaPensil = 2000;
 		int hargaBuku   = 3000;
 		int hargaPenghapus = 1000;
-		int total = 0, satuan = 0, pilihMenu = 0, uangBayar = 0;
+		int total = 0, satuan = 0, pilihMenu = 0, uangBayar = 0, uangKurang = 0, sisaKembalian = 0;
 		String loop;
 
 		System.out.println("=================");
@@ -86,12 +86,15 @@ public class Latihan3{
                         loop = simpan.next();
 		}
 		System.out.println("Total Belanjaan Kamu adalah: Rp. " + total);
-		System.out.println("Masukan uang kamu : ");
+		System.out.print("Masukan uang kamu : ");
 		uangBayar = simpan.nextInt();
-		if (total <= uangBayar){
-			System.out.println("Uang kamu kurang");
+		if (uangBayar <= total){
+			uangKurang = total - uangBayar;
+			System.out.println("Uang kamu kurang" + uangKurang);
 		}else{
-			System.out.println("Pembayaran LUNAS");
+			sisaKembalian = uangBayar - total;
+			System.out.println("Pembayaran anda: LUNAS");
+			System.out.println("Kembalian anda: Rp. " + sisaKembalian);
 		}
 	}
 }
