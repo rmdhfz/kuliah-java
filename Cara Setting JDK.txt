@@ -1,0 +1,8 @@
+1. Masuk ke program files> Java> jdk> bin. 
+2. Copy link address bin tersebut.
+3. Klik kanan my computer kalian> propertis.
+4. Klik menu envrtmen variabel
+5. Variabel name : PATH
+6. Variabel velues: paste point nomer 2.
+7. Ok semua sampai nutup
+8. Restar komputer kalian

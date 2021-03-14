@@ -2,6 +2,7 @@ import java.util.Scanner;
 public class Latihan2{
 	public static void main(String args[]){
 		Scanner simpan = new Scanner(System.in);
+		
 		// variabel properties
 		String nama = "";
 		int usia = 0;
@@ -16,6 +17,7 @@ public class Latihan2{
 		}else{
 			System.out.println("Kamu remaja");
 		}
+		
 		// Output
 		System.out.println("Nama kamu : " + nama);
 		System.out.println("Usia kamu : " + usia);
