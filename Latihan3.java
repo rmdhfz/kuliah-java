@@ -9,7 +9,7 @@ public class Latihan3{
         	
                 DecimalFormat kursIndonesia = (DecimalFormat) DecimalFormat.getCurrencyInstance();
                 DecimalFormatSymbols formatRp = new DecimalFormatSymbols();
-
+                
                 formatRp.setCurrencySymbol("Rp. ");
                 formatRp.setMonetaryDecimalSeparator('.');
                 formatRp.setGroupingSeparator('.');
@@ -85,6 +85,7 @@ public class Latihan3{
                         System.out.println("|Payment: \t" + kursIndonesia.format(uangBayar) + "\t\t|");
                         System.out.println("|Change: \t" + kursIndonesia.format(sisaKembalian) + "\t\t|");
                         System.out.println("|---------------------------------------|");
+                        System.out.println("Nama: Hafiz Ramadhan - NIM: 191011402923");
                 }
         }
 }
